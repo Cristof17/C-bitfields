@@ -5,4 +5,4 @@ struct	bitfield	{
 
 typedef	struct	bitfield	bitfield_t;
 
-void	print_bitfield(		bitfield_t	bitfield	);
+void	print_bitfield(	bitfield_t	bitfield );
