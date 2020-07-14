@@ -1,8 +1,8 @@
 #include "bitfield_t.h"
 #include <stdio.h>
 
-void print_bitfield( bitfield_t bitfield ) {
+void bitfield_print(bitfield_t bitfield_param) {
 
-	size_t  bitfield_size = sizeof(	bitfield );
-	fprintf( stdout, "%ld\n", bitfield_size );
+	size_t  size_bitfield = sizeof(	bitfield );
+	fprintf( stdout, "%ld\n", size_bitfield);
 }
